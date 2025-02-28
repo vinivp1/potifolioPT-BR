@@ -8,9 +8,20 @@ html, body{
     padding:0;
 }
 
-.img {
-    float:inline-end;
+header{
+    background-color:#09122C ;
+    color:#F8FAFC;
+    width: 100%;
+    padding: 20px 0;
 }
+
+.header{
+    display: inline;
+    .img {
+        float:inline-start;
+    }
+}
+
 
 .title{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,9 +36,11 @@ html, body{
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     width: 100%;
+    padding-left: 10vh;
 }
 
 .container2 {
@@ -36,21 +49,18 @@ html, body{
     width: 50%;
     margin:0 auto;
     text-align: center;
+    padding: 100px;
 }
 
-.section {
-    width: 80%; 
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
 }
 
 .aboutme{
     text-align: center;
-}
-
-header{
-    background-color:#09122C ;
-    color:#F8FAFC;
-    width: 100%;
-    padding: 20px 0;
 }
 
 .logo{
