@@ -4,34 +4,45 @@
         <meta charset="UTF-8">
         <title> Sobre Mim </title>
         <link rel="stylesheet" href="../style.css">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
 
     <body>
-        <header>
-            <div>
-                <h1 class="logo"> 👾 Vinicius Valentim Pereira 👾</h1>
-            </div>
-            <nav class="navigation">
-                <ul class="navlist">
-                    <li> <a class="navlink" href="../index.html"> Página Inicial</a> </li>
-                    <li> <a class="navlink" href="../pages/aboutme.html"> Sobre Mim</a> </li>
-                    <li> <a class="navlink" href="../pages/contact.html"> Contato </a> </li>
-                    <li> <a class="navlink" href="../assets/Vinicius Valentim Pereira.pdf" download> Currículo PDF</a> </li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div class="container2">
-            <p class="aboutme"> Sou um desenvolvedor em início de carreira em busca de aprimorar minhas habilidades técnicas e interpessoais. Atualmente, estou cursando Engenharia da Computação na Universidade de Sorocaba (UNISO). <br>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16" color="white">
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                  <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+                  
+                </svg>
+              <span class="fs-4" style="margin-left: 10px;" >  Vinicius Valentim Pereira </span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page">Página Inicial</a></li>
+              <li class="nav-item"><a href="../pages/aboutme.html" class="nav-link">Sobre Mim</a></li>
+              <li class="nav-item"><a href="../pages/contact.html" class="nav-link">Contato</a></li>
+              <li class="nav-item"><a href="../assets/Vinicius Valentim Pereira.pdf" class="nav-link">Currículo PDF</a></li>
+            </ul>
+      </header>
 
-            Meu primeiro contato com a programação foi na adolescência, em uma aula de desenvolvimento de jogos, onde aprendi a programar com blocos. Mais tarde, fui introduzido ao Python e, depois, ao JavaScript. Meu interesse por tecnologia se aprofundou durante o curso técnico em Mecatrônica, do qual me formei em 2021 e prossegue até os dias de hoje. <br>
-            
-            No meu tempo livre gosto de praticar esportes, ir à academia e ouvir ou tocar música.<br>
-            
-            Atualmente, busco um estágio em desenvolvimento Full-stack ou Python, ou uma posição júnior onde eu possa aplicar minha formação acadêmica, adquirir experiência prática e contribuir para projetos de tecnologia inovadores. Estou motivado para aprender, evoluir e agregar valor em um ambiente dinâmico e desafiador.
-            </p>
+        <div class="px-4 py-5 my-5 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+            <h1 class="display-5 fw-bold text-body-emphasis">Sobre Mim</h1>
+            <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Sou um desenvolvedor em início de carreira em busca de aprimorar minhas habilidades técnicas e interpessoais. Atualmente, estou cursando Engenharia da Computação na Universidade de Sorocaba (UNISO). <br>
+
+                Meu primeiro contato com a programação foi na adolescência, em uma aula de desenvolvimento de jogos, onde aprendi a programar com blocos. Mais tarde, fui introduzido ao Python e, depois, ao JavaScript. Meu interesse por tecnologia se aprofundou durante o curso técnico em Mecatrônica, do qual me formei em 2021 e prossegue até os dias de hoje. <br>
+                
+                No meu tempo livre gosto de praticar esportes, ir à academia e ouvir ou tocar música.<br>
+                
+                Atualmente, busco um estágio em desenvolvimento Full-stack ou Python, ou uma posição júnior onde eu possa aplicar minha formação acadêmica, adquirir experiência prática e contribuir para projetos de tecnologia inovadores. Estou motivado para aprender, evoluir e agregar valor em um ambiente dinâmico e desafiador.</p>
+            </div>
         </div>
         
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
